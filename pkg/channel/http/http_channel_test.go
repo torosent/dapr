@@ -14,7 +14,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/dapr/dapr/pkg/channel"
+	"dapr/pkg/channel"
 	"github.com/stretchr/testify/assert"
 	"github.com/valyala/fasthttp"
 )

@@ -19,8 +19,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "github.com/dapr/dapr/pkg/apis/configuration/v1alpha1"
-	"github.com/dapr/dapr/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "dapr/pkg/apis/configuration/v1alpha1"
+	"dapr/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

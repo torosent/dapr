@@ -8,7 +8,7 @@
 package testing
 
 import (
-	actors "github.com/dapr/dapr/pkg/actors"
+	actors "dapr/pkg/actors"
 	mock "github.com/stretchr/testify/mock"
 )
 

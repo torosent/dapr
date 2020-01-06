@@ -7,7 +7,7 @@ package runner
 
 import (
 	log "github.com/sirupsen/logrus"
-	kube "github.com/dapr/dapr/tests/platforms/kubernetes"
+	kube "dapr/tests/platforms/kubernetes"
 )
 
 // runnerFailExitCode is the exit code when test runner setup is failed

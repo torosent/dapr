@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dapr/dapr/pkg/channel"
-	daprclient_pb "github.com/dapr/dapr/pkg/proto/daprclient"
+	"dapr/pkg/channel"
+	daprclient_pb "dapr/pkg/proto/daprclient"
 	"github.com/golang/protobuf/ptypes/any"
 	"google.golang.org/grpc"
 )

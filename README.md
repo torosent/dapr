@@ -2,8 +2,8 @@
 <h2>Any language, any framework, anywhere</h2>
 </div>
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/dapr/dapr)](https://goreportcard.com/report/github.com/dapr/dapr)
-[![Build Status](https://github.com/dapr/dapr/workflows/dapr/badge.svg?event=push&branch=master)](https://github.com/dapr/dapr/actions?workflow=dapr)
+[![Go Report Card](https://goreportcard.com/badge/dapr)](https://goreportcard.com/report/dapr)
+[![Build Status](https://dapr/workflows/dapr/badge.svg?event=push&branch=master)](https://dapr/actions?workflow=dapr)
 [![Gitter](https://badges.gitter.im/Dapr/community.svg)](https://gitter.im/Dapr/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Follow on Twitter](https://img.shields.io/twitter/follow/daprdev.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=daprdev)
@@ -92,19 +92,19 @@ We want your contributions and suggestions. One of the easiest ways to contribut
 
 ### Contributing to Dapr
 
-See the [Wiki](https://github.com/dapr/dapr/wiki) for information on contributing to Dapr.
+See the [Wiki](https://dapr/wiki) for information on contributing to Dapr.
 
-See the [Development Guide](https://github.com/dapr/dapr/blob/master/docs/development) to get started with building and developing.
+See the [Development Guide](https://dapr/blob/master/docs/development) to get started with building and developing.
 
 ## Roadmap
 
-See [Roadmap](https://github.com/dapr/dapr/wiki/Roadmap) for what's planned for the Dapr project.
+See [Roadmap](https://dapr/wiki/Roadmap) for what's planned for the Dapr project.
 
 ## Repositories
 
 | Repo | Description |
 |:-----|:------------|
-| [Dapr](https://github.com/dapr/dapr) | The main repository that you are currently in. Contains the Dapr runtime code and overview documentation.
+| [Dapr](https://dapr) | The main repository that you are currently in. Contains the Dapr runtime code and overview documentation.
 | [CLI](https://github.com/dapr/cli) | The Dapr CLI allows you to setup Dapr on your local dev machine or on a Kubernetes cluster, provides debugging support, launches and manages Dapr instances.
 | [Docs](https://github.com/dapr/docs) | The documentation repository for Dapr.
 | [Samples](https://github.com/dapr/samples) | This repository contains a series of samples that highlight Dapr capabilities.

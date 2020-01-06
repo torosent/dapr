@@ -6,8 +6,8 @@
 package runtime
 
 import (
-	config "github.com/dapr/dapr/pkg/config/modes"
-	"github.com/dapr/dapr/pkg/modes"
+	config "dapr/pkg/config/modes"
+	"dapr/pkg/modes"
 )
 
 // Protocol is a communications protocol

@@ -11,8 +11,8 @@ import (
 	"os/signal"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/dapr/dapr/pkg/placement"
-	"github.com/dapr/dapr/pkg/version"
+	"dapr/pkg/placement"
+	"dapr/pkg/version"
 )
 
 func main() {

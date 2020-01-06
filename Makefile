@@ -85,7 +85,7 @@ HELM_MANIFEST_FILE:=$(HELM_CHART_ROOT)/manifest/$(RELEASE_NAME).yaml
 ################################################################################
 # Go build details                                                             #
 ################################################################################
-BASE_PACKAGE_NAME := github.com/dapr/dapr
+BASE_PACKAGE_NAME := dapr
 
 DEFAULT_LDFLAGS:=-X $(BASE_PACKAGE_NAME)/pkg/version.commit=$(GIT_VERSION) -X $(BASE_PACKAGE_NAME)/pkg/version.version=$(DAPR_VERSION)
 
@@ -124,10 +124,11 @@ define genBinariesForTarget
 .PHONY: $(5)/$(1)
 $(5)/$(1):
 	CGO_ENABLED=$(CGO) GOOS=$(3) GOARCH=$(4) go build $(GCFLAGS) -ldflags=$(LDFLAGS) \
-	-o $(5)/$(1) -mod=vendor \
+	-o $(5)/$(1) \
 	$(2)/main.go;
 endef
 
+$(go mod tidy)
 # Generate binary targets
 $(foreach ITEM,$(BINARIES),$(eval $(call genBinariesForTarget,$(ITEM)$(BINARY_EXT),./cmd/$(ITEM),$(GOOS),$(GOARCH),$(DAPR_OUT_DIR))))
 
@@ -240,8 +241,9 @@ release: build archive
 ################################################################################
 .PHONY: test
 test:
-	go test ./pkg/... -mod=vendor
-	go test ./tests/... -mod=vendor
+	go mod tidy
+	go test ./pkg/...
+	go test ./tests/...
 
 ################################################################################
 # Target: lint                                                                 #

@@ -10,9 +10,9 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/dapr/dapr/pkg/injector"
-	"github.com/dapr/dapr/pkg/signals"
-	"github.com/dapr/dapr/pkg/version"
+	"dapr/pkg/injector"
+	"dapr/pkg/signals"
+	"dapr/pkg/version"
 )
 
 var (

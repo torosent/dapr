@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/dapr/components-contrib/exporters"
-	daprt "github.com/dapr/dapr/pkg/testing"
+	daprt "dapr/pkg/testing"
 	"github.com/stretchr/testify/assert"
 )
 

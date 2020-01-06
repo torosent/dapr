@@ -1,4 +1,4 @@
-module github.com/dapr/dapr
+module dapr
 
 go 1.13
 

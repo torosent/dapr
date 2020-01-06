@@ -3,8 +3,8 @@ package handlers
 import (
 	"testing"
 
-	versioned "github.com/dapr/dapr/pkg/client/clientset/versioned"
-	"github.com/dapr/dapr/pkg/kubernetes"
+	versioned "dapr/pkg/client/clientset/versioned"
+	"dapr/pkg/kubernetes"
 	"github.com/stretchr/testify/assert"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"

@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/dapr/dapr/pkg/channel"
-	grpc_channel "github.com/dapr/dapr/pkg/channel/grpc"
+	"dapr/pkg/channel"
+	grpc_channel "dapr/pkg/channel/grpc"
 	"google.golang.org/grpc"
 )
 

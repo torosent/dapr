@@ -10,10 +10,10 @@ import (
 	"net"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/dapr/dapr/pkg/config"
-	diag "github.com/dapr/dapr/pkg/diagnostics"
-	dapr_pb "github.com/dapr/dapr/pkg/proto/dapr"
-	daprinternal_pb "github.com/dapr/dapr/pkg/proto/daprinternal"
+	"dapr/pkg/config"
+	diag "dapr/pkg/diagnostics"
+	dapr_pb "dapr/pkg/proto/dapr"
+	daprinternal_pb "dapr/pkg/proto/daprinternal"
 	grpc_go "google.golang.org/grpc"
 )
 

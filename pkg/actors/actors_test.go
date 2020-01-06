@@ -14,9 +14,9 @@ import (
 	"time"
 
 	"github.com/dapr/components-contrib/state"
-	"github.com/dapr/dapr/pkg/channel"
-	"github.com/dapr/dapr/pkg/channel/http"
-	channelt "github.com/dapr/dapr/pkg/channel/testing"
+	"dapr/pkg/channel"
+	"dapr/pkg/channel/http"
+	channelt "dapr/pkg/channel/testing"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

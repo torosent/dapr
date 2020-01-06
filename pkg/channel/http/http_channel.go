@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dapr/dapr/pkg/channel"
+	"dapr/pkg/channel"
 	"github.com/valyala/fasthttp"
 )
 

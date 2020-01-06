@@ -8,8 +8,8 @@ package kubernetes
 import (
 	"path/filepath"
 
-	daprclient "github.com/dapr/dapr/pkg/client/clientset/versioned"
-	componentsv1alpha1 "github.com/dapr/dapr/pkg/client/clientset/versioned/typed/components/v1alpha1"
+	daprclient "dapr/pkg/client/clientset/versioned"
+	componentsv1alpha1 "dapr/pkg/client/clientset/versioned/typed/components/v1alpha1"
 	"k8s.io/client-go/kubernetes"
 	appv1 "k8s.io/client-go/kubernetes/typed/apps/v1"
 	apiv1 "k8s.io/client-go/kubernetes/typed/core/v1"

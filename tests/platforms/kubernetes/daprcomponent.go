@@ -6,7 +6,7 @@
 package kubernetes
 
 import (
-	v1alpha1 "github.com/dapr/dapr/pkg/apis/components/v1alpha1"
+	v1alpha1 "dapr/pkg/apis/components/v1alpha1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

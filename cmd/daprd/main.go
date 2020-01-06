@@ -15,10 +15,10 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	global_config "github.com/dapr/dapr/pkg/config"
-	"github.com/dapr/dapr/pkg/modes"
-	daprd "github.com/dapr/dapr/pkg/runtime"
-	"github.com/dapr/dapr/pkg/version"
+	global_config "dapr/pkg/config"
+	"dapr/pkg/modes"
+	daprd "dapr/pkg/runtime"
+	"dapr/pkg/version"
 )
 
 func main() {

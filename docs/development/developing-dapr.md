@@ -30,8 +30,8 @@ Once everything is successfully installed you should see make and other command 
 
 ```bash
 cd $GOPATH/src
-mkdir -p github.com/dapr/dapr
-git clone https://github.com/dapr/dapr.git github.com/dapr/dapr
+mkdir -p dapr
+git clone https://dapr.git dapr
 ```
 
 ## Build the Dapr binaries
@@ -46,7 +46,7 @@ For example, running `make build` on MacOS will generate the directory `./dist/d
 * Build for your current local environment
 
 ```bash
-cd $GOPATH/src/github.com/dapr/dapr/
+cd $GOPATH/src/dapr/
 make build
 ```
 
@@ -71,7 +71,7 @@ This section introduces how to start debugging with Delve CLI. Please see [Delve
 ### Start the dapr runtime with a debugger
 
 ```bash
-$ cd $GOPATH/src/github.com/dapr/dapr/cmd/daprd
+$ cd $GOPATH/src/dapr/cmd/daprd
 $ dlv debug .
 Type 'help' for list of commands.
 (dlv) break main.main

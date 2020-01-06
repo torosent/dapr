@@ -11,9 +11,9 @@ import (
 
 	cors "github.com/AdhityaRamadhanus/fasthttpcors"
 	log "github.com/sirupsen/logrus"
-	"github.com/dapr/dapr/pkg/config"
-	diag "github.com/dapr/dapr/pkg/diagnostics"
-	http_middleware "github.com/dapr/dapr/pkg/middleware/http"
+	"dapr/pkg/config"
+	diag "dapr/pkg/diagnostics"
+	http_middleware "dapr/pkg/middleware/http"
 	routing "github.com/qiangxue/fasthttp-routing"
 	"github.com/valyala/fasthttp"
 	"github.com/valyala/fasthttp/pprofhandler"

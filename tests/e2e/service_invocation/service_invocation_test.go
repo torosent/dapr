@@ -13,9 +13,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/dapr/dapr/tests/e2e/utils"
-	kube "github.com/dapr/dapr/tests/platforms/kubernetes"
-	"github.com/dapr/dapr/tests/runner"
+	"dapr/tests/e2e/utils"
+	kube "dapr/tests/platforms/kubernetes"
+	"dapr/tests/runner"
 	"github.com/stretchr/testify/require"
 )
 

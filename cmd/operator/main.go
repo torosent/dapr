@@ -10,12 +10,12 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	scheme "github.com/dapr/dapr/pkg/client/clientset/versioned"
-	k8s "github.com/dapr/dapr/pkg/kubernetes"
-	"github.com/dapr/dapr/pkg/operator"
-	"github.com/dapr/dapr/pkg/signals"
-	"github.com/dapr/dapr/pkg/version"
-	"github.com/dapr/dapr/utils"
+	scheme "dapr/pkg/client/clientset/versioned"
+	k8s "dapr/pkg/kubernetes"
+	"dapr/pkg/operator"
+	"dapr/pkg/signals"
+	"dapr/pkg/version"
+	"dapr/utils"
 	"k8s.io/klog"
 )
 

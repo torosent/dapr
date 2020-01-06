@@ -12,8 +12,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/cenkalti/backoff"
-	components_v1alpha1 "github.com/dapr/dapr/pkg/apis/components/v1alpha1"
-	config "github.com/dapr/dapr/pkg/config/modes"
+	components_v1alpha1 "dapr/pkg/apis/components/v1alpha1"
+	config "dapr/pkg/config/modes"
 	"github.com/valyala/fasthttp"
 )
 

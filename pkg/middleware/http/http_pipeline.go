@@ -6,7 +6,7 @@
 package http
 
 import (
-	"github.com/dapr/dapr/pkg/config"
+	"dapr/pkg/config"
 	"github.com/valyala/fasthttp"
 )
 

@@ -10,7 +10,7 @@ package testing
 import (
 	"regexp"
 
-	messaging "github.com/dapr/dapr/pkg/messaging"
+	messaging "dapr/pkg/messaging"
 	mock "github.com/stretchr/testify/mock"
 )
 

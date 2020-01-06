@@ -9,7 +9,7 @@ E2E tests are designed for verifying the functional correctness by replicating e
 
 ### Prerequisites
 
-* Set up [Dapr development environment](https://github.com/dapr/dapr/blob/master/docs/development/setup-dapr-development-env.md)
+* Set up [Dapr development environment](https://dapr/blob/master/docs/development/setup-dapr-development-env.md)
   - [Install the latest helm v2](https://github.com/dapr/docs/blob/master/getting-started/environment-setup.md#installing-dapr-on-a-kubernetes-cluster).
 * Create your DockerHub ID
 * Set the environment variables
@@ -80,6 +80,6 @@ make test-e2e-all
 
 ## Run E2E tests through GitHub Actions
 
-To keep the build infrastructure simple, Dapr uses [dapr-test GitHub Actions Workflow](https://github.com/dapr/dapr/actions?query=workflow%3Adapr-test) to run e2e tests using one of [AKS clusters](https://github.com/dapr/dapr/blob/4cd61680a3129f729deae24a51da241d0701376c/tests/test-infra/find_cluster.sh#L12-L17).
+To keep the build infrastructure simple, Dapr uses [dapr-test GitHub Actions Workflow](https://dapr/actions?query=workflow%3Adapr-test) to run e2e tests using one of [AKS clusters](https://dapr/blob/4cd61680a3129f729deae24a51da241d0701376c/tests/test-infra/find_cluster.sh#L12-L17).
 
 Once a contributor creates pull request, maintainer can start E2E tests by adding `/ok-to-test` comment to Pull Request.

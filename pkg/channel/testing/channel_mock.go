@@ -1,7 +1,7 @@
 package testing
 
 import (
-	channel "github.com/dapr/dapr/pkg/channel"
+	channel "dapr/pkg/channel"
 	"github.com/stretchr/testify/mock"
 )
 

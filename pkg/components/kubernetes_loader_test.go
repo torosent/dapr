@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	config "github.com/dapr/dapr/pkg/config/modes"
+	config "dapr/pkg/config/modes"
 	"github.com/stretchr/testify/assert"
 )
 

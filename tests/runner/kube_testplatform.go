@@ -10,7 +10,7 @@ import (
 	"os"
 
 	log "github.com/sirupsen/logrus"
-	kube "github.com/dapr/dapr/tests/platforms/kubernetes"
+	kube "dapr/tests/platforms/kubernetes"
 )
 
 const (

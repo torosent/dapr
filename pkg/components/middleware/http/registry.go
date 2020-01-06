@@ -10,7 +10,7 @@ import (
 	"sync"
 
 	middleware "github.com/dapr/components-contrib/middleware"
-	http_middleware "github.com/dapr/dapr/pkg/middleware/http"
+	http_middleware "dapr/pkg/middleware/http"
 )
 
 // Registry is the interface for callers to get registered HTTP middleware

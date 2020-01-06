@@ -5,7 +5,7 @@
 
 package components
 
-import components_v1alpha1 "github.com/dapr/dapr/pkg/apis/components/v1alpha1"
+import components_v1alpha1 "dapr/pkg/apis/components/v1alpha1"
 
 // ComponentLoader is an interface for returning Dapr components
 type ComponentLoader interface {
